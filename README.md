@@ -1,27 +1,31 @@
-# 🧮 DSA Problem Solving Tracker
+# 📘 DSA Problem Solving Tracker
 
-This repo contains my solutions to 150+ DSA problems from LeetCode, GFG, and self-practice.
-
-## ✅ Total Problems Solved: 150+
-📆 Last Updated: June 30, 2025
-
----
-
-## 📚 Topics Covered
-
-| Topic     | Count |
-|-----------|-------|
-| Arrays    | 50+   |
-| Strings   | 30+   |
-| DP        | 20+   |
-| Trees     | 15+   |
-| Graphs    | 10+   |
+This repository contains my progress in solving **150+ Data Structures and Algorithms (DSA)** problems.  
+Problems are solved from platforms like **LeetCode, GFG, InterviewBit**, and **self-practice**.  
+Each topic is organized in separate folders with clean, commented code.
 
 ---
 
-## 🗂️ Folder Structure
+## 🧮 Topics Covered
 
-- `Arrays/` → Array problems
-- `Strings/` → String manipulation
-- `DP/` → Dynamic Programming
-- `Trees/` → Binary Tree, BST
+| 🔢 Topic                  | ✅ Status    | 🧠 Concepts Practiced                                |
+|--------------------------|-------------|------------------------------------------------------|
+| Arrays                   | ✅ Completed | Traversal, Sorting, Prefix Sum, Sliding Window       |
+| Strings                  | ✅ Completed | Palindromes, Substrings, Hashing, Character Counts   |
+| Sorting & Searching      | ✅ Completed | Binary Search, Merge Sort, Quick Sort                |
+| Recursion & Backtracking | ✅ Completed | Subsets, Permutations, N-Queens, Sudoku Solver       |
+| Linked List              | ✅ Completed | Reversal, Palindrome, Merge, Cycle Detection         |
+| Stacks & Queues          | ✅ Completed | Next Greater, Infix/Postfix, Stack Design, Queue Ops |
+
+---
+
+## 📊 Summary
+
+- 🔢 **Total Problems Solved**: `150+`
+- 🧠 **Concepts Practiced**: Arrays, Strings, Linked Lists, Recursion, Stacks, Queues, Searching/Sorting
+- 📆 **Last Updated**: June 30, 2025
+
+---
+
+## 📂 Folder Structure
+
