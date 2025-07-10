@@ -1,4 +1,4 @@
-public class duplicates {
+public class remove_duplicates {
     public static String remdup(String str) {
         StringBuilder sb = new StringBuilder(str);
         for(int i=0; i<sb.length()-1; i++) {
