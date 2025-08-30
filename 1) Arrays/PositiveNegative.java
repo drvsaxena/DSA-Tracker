@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class positive_negative {
+public class PositiveNegative {
     public static void rearra(int nums[]) {
        ArrayList <Integer> pos = new ArrayList<>(); 
        ArrayList <Integer> neg = new ArrayList<>();

@@ -1,4 +1,4 @@
-public class kadanes {
+public class KadanesAlgo {
     public static void sumsub(int nums[]) {
         int cs = 0;
         int ms = Integer.MIN_VALUE;

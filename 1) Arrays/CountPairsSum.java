@@ -1,4 +1,4 @@
-public class countpairs_sum {
+public class CountPairsSum {
     public static int pairs(int nums[], int sum) {
         int count = 0;
 

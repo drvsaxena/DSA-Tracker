@@ -1,4 +1,4 @@
-public class frequency {
+public class Frequency {
     public static void frq(int nums[]) {
         for(int i=0; i<nums.length; i++) {
             boolean alreadyCounted = false;

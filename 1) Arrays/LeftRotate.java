@@ -1,4 +1,4 @@
-public class leftrotate_array {
+public class LeftRotate {
     public static void rotate(int nums[]){
         if(nums.length == 0){
             return;

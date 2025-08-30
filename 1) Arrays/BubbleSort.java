@@ -1,4 +1,4 @@
-public class bubble_sort{
+public class BubbleSort{
     public static void bubsort(int nums[]) {
         for(int i=0; i<nums.length; i++) {
             for(int j=0; j<nums.length-i-1; j++) {

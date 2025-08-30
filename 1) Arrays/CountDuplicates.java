@@ -1,4 +1,4 @@
-public class count_duplicates {
+public class CountDuplicates {
     public static void duplicate(int nums[]) {
         boolean visited[] = new boolean[nums.length];
 

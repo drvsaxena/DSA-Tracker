@@ -1,4 +1,4 @@
-public class union_intersection {
+public class UnionIntersection {
     public static boolean isrepeat(int num[], int size, int key) {
         for(int i=0; i<size; i++) {
             if(num[i] == key) {

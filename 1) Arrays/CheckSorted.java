@@ -1,4 +1,4 @@
-public class check_sorted {
+public class CheckSorted {
     public static boolean issorted(int nums[]) {
         boolean asc = true;
         boolean dsc = true;

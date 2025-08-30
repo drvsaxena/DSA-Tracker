@@ -1,4 +1,4 @@
-public class rotate_by_k {
+public class RotateByK {
     public static void rotatek(int nums[], int k) {
         int n = nums.length;
         k = k%n;

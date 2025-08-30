@@ -1,4 +1,4 @@
-public class even_odd{
+public class EvenOdd{
     public static void evod(int nums[]) {
         int e = 0;
         int o = 0;

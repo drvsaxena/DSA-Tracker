@@ -1,4 +1,4 @@
-public class negative_oneside{
+public class NegativeOneSide{
     public static void negoneside(int nums[]) {
         int j = 0;
 

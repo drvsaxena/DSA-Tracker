@@ -1,4 +1,4 @@
-public class missing_num {
+public class MissingNum {
     public static int missing(int nums[], int N) {
         int expected = (N*(N+1)) / 2;
         int actual = 0;

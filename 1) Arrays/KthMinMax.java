@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class kth_minmax {
+public class KthMinMax {
     public static void main(String[] args) {
         int nums[] = {2,3,5,4,6,8};
         int k = 2;

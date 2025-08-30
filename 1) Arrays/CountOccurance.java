@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class count_occurance {
+public class CountOccurance {
     public static int cocur(int nums[], int key) {
         int count = 0;
         for(int i=0; i<nums.length; i++) {

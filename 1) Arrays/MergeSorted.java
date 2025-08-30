@@ -1,4 +1,4 @@
-public class merge_sorted_arrays {
+public class MergeSorted {
     public static void merge(int num1[], int  num2[]) {
         int n=num1.length, m = num2.length;
         int k = n + m;

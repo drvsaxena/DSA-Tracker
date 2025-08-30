@@ -1,4 +1,4 @@
-public class second_largest {
+public class SecondLargest {
     public static int seclar(int nums[]) {
         int lar = Integer.MIN_VALUE;
         int seclar = Integer.MIN_VALUE;

@@ -1,4 +1,4 @@
-public class selection_sort {
+public class SelectionSort {
     public static void selsort(int nums[]) {
         for(int i=0; i<nums.length; i++) {
             int minIndex = i;
