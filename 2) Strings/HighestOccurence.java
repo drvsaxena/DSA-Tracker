@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class highest_occurence {
+public class HighestOccurence {
     // public static char occur(String str) {
     //     int freq[] = new int[256];
     //     for(int i=0; i<str.length(); i++) {
