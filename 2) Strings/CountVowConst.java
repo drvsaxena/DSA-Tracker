@@ -1,4 +1,4 @@
-public class constants_vowels {
+public class CountVowConst {
     public static void convow(String str) {
         str = str.toLowerCase();
         int c = 0;
