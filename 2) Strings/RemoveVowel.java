@@ -1,4 +1,4 @@
-public class remove_vowels {
+public class RemoveVowel {
     public static String vowels(String str) {
         str = str.toLowerCase();
         StringBuilder sb = new StringBuilder();

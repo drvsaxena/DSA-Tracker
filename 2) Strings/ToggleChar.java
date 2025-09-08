@@ -1,4 +1,4 @@
-public class toggle {
+public class ToggleChar {
     public static String togg(String str) {
         StringBuilder sb = new StringBuilder();
 

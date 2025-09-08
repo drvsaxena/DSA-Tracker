@@ -1,4 +1,4 @@
-public class remove {
+public class RemoveNum {
     public static String removeoth(String str) {
         str = str.replaceAll("[^a-zA-Z]", "");
 

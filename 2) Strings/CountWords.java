@@ -1,4 +1,4 @@
-public class count_words {
+public class CountWords {
     public static int words(String str) {
         str = str.trim();
 

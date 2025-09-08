@@ -1,4 +1,4 @@
-public class replace {
+public class ReplaceHyphen {
     public static String repch(String str) {
         
         str = str.replaceAll("\\s", "-");

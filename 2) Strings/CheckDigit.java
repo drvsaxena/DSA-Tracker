@@ -1,4 +1,4 @@
-public class alldigits {
+public class CheckDigit {
     public static boolean isDigit(String str) {
         for(int i=0; i<str.length(); i++) {
             if(!Character.isDigit(str.charAt(i))) {

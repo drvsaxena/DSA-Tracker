@@ -1,4 +1,4 @@
-public class frequency {
+public class FrquencyStr {
     public static void freq(String str) {
         int fr[] = new int[256];
         for(int i=0; i<str.length(); i++) {

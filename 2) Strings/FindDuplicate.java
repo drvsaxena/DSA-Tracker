@@ -1,4 +1,4 @@
-public class duplicate {
+public class FindDuplicate {
     public static void dupli(String str) {
         int freq[] = new int[256];
 

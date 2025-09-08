@@ -1,4 +1,4 @@
-public class capitalize {
+public class CapitalizeFirst {
     public static String first(String str) {
         String words[] = str.trim().split("\\s+");
         StringBuilder sb = new StringBuilder();

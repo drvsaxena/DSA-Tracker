@@ -1,4 +1,4 @@
-public class upper_lower {
+public class UpperLower {
     public static void main(String[] args) {
         String original = "Hello World";
 

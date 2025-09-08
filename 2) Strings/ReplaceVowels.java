@@ -1,12 +1,13 @@
-public class replace_vowels {
+public class ReplaceVowels {
     public static String repl(String str) {
         str = str.toLowerCase();
-        StringBuilder sb = new StringBuilder();
+        // StringBuilder sb = new StringBuilder();
 
         String newstr = str.replace('a', '$').replace('e', '$').replace('i', '$').replace('o', '$').replace('u', '$');
-        sb.append(newstr);
+        // sb.append(newstr);
         
-        return sb.toString();
+        // return sb.toString();
+        return newstr;
     }
 
     public static void main(String[] args) {
