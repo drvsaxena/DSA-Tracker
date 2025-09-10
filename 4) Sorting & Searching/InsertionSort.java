@@ -1,4 +1,4 @@
-public class insertion_sort {
+public class InsertionSort {
     public static void insertionSort(int nums[]) {
         for (int i=1; i<nums.length; i++) {
             int curr = nums[i];
