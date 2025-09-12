@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class binary_search {
+public class BinarySearch {
     public static int binarysearch(int numbers[], int key) {
         int start = 0;
         int end = numbers.length - 1;
