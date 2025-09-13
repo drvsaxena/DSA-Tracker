@@ -1,21 +1,23 @@
+import java.util.Arrays;
+
 public class LongestPrefix {
     public static String longestCommonPrefix(String[] strs) {
-        if (strs == null || strs.length == 0) return "";
+        StringBuilder sb = new StringBuilder();
+        Arrays.sort(strs);
 
-        String prefix = strs[0];  // Assume first word as prefix
+        char[] first = strs[0].toCharArray();
+        char[] last = strs[strs.length-1].toCharArray();
 
-        for (int i = 1; i < strs.length; i++) {
-            // Keep shortening prefix until it matches the current word
-            while (strs[i].indexOf(prefix) != 0) {
-                prefix = prefix.substring(0, prefix.length() - 1);
-
-                if (prefix.isEmpty()) return "";
+        for (int i=0; i<first.length; i++) {
+            if (first[i] != last[i]) {
+                break;
             }
+            sb.append(first[i]);
         }
-
-        return prefix;
+        return sb.toString();
     }
 
+   
     public static void main(String[] args) {
         String[] arr = {"flower", "flow", "flight"};
         System.out.println("Longest Common Prefix: " + longestCommonPrefix(arr));
