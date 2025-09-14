@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class balancedBrackets {
+public class BalancedBrackets {
     public static boolean brackcheck(String str) {
         Stack<Character> s = new Stack<>();
         

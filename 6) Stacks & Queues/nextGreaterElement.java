@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class nextGreaterElement {
+class NextGreaterElement {
     public static int[] greaterelements (int arr[]) {
         int n = arr.length;
         int[] result = new int[n];

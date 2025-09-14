@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class adjacentDuplicates {
+public class AdajacentDuplicates {
     public static String duplicate(String str) {
         Stack<Character> s = new Stack<>();
         

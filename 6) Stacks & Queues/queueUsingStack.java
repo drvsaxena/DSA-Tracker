@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class queueUsingStack {
+public class QueueUsingStack {
     Stack<Integer> stack1 = new Stack<>();
     Stack<Integer> stack2 = new Stack<>();
 
@@ -32,7 +32,7 @@ public class queueUsingStack {
 
 
     public static void main(String[] args) {
-        queueUsingStack q = new queueUsingStack();
+        QueueUsingStack q = new QueueUsingStack();
         
         q.enqueue(1);
         q.enqueue(2);

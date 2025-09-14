@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class stackUsingQueue {
+public class StackUsingQueue {
     Queue<Integer> q1 = new LinkedList<>();
     Queue<Integer> q2 = new LinkedList<>();
 
@@ -42,7 +42,7 @@ public class stackUsingQueue {
 
 
     public static void main(String[] args) {
-        stackUsingQueue s = new stackUsingQueue();
+        StackUsingQueue s = new StackUsingQueue();
         s.push(1);
         s.push(2);
         s.push(3);

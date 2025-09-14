@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Evaluate_Reverse_Polish {
+public class EvaluateReversePolish {
     public static int evaluateRPN(String[] tokens) {
         Stack<Integer> s = new Stack<>();
 
