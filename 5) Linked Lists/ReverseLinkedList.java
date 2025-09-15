@@ -1,4 +1,4 @@
-public class reverse{
+public class ReverseLinkedList{
     public static class Node{
         int data;
         Node next;
@@ -47,7 +47,7 @@ public class reverse{
     }
 
     public static void main(String args[]) {
-        reverse rv = new reverse();
+        ReverseLinkedList rv = new ReverseLinkedList();
         rv.addLast(1);
         rv.addLast(2);
         rv.addLast(3);

@@ -1,4 +1,4 @@
-public class printLinked {
+public class PrintingLinkedList {
 
     public static class Node{
         int data;
@@ -34,7 +34,7 @@ public class printLinked {
 
 
     public static void main(String[] args) {
-        printLinked pl = new printLinked();
+        PrintingLinkedList pl = new PrintingLinkedList();
         pl.addLast(1);
         pl.addLast(2);
         pl.addLast(3);
