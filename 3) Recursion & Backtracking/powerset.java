@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class powerset {
+public class PowerSet {
     
     public static void main(String[] args) {
         int[] nums = {1, 2, 3}; // You can change the input array
