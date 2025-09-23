@@ -1,18 +1,21 @@
-public class MissingNum {
-    public static int missing(int nums[], int N) {
-        int expected = (N*(N+1)) / 2;
-        int actual = 0;
+import java.util.Arrays;
 
-        for(int i=0; i<nums.length; i++) {
-            actual = actual + nums[i];
+class MissingNum {
+    public static int missingNumber(int[] nums) {
+        Arrays.sort(nums);
+        if (nums[0] != 0) {
+            return 0;
         }
-
-        return expected - actual;
+        for (int i=0; i<nums.length; i++) {
+            if (nums[i+1] != nums[i] + 1) {
+                return nums[i] + 1;
+            }
+        }
+        return nums.length;
     }
 
     public static void main(String[] args) {
-        int nums[] = {1,2,4,5,6};
-        int N = 6;
-        System.out.println("Missing Number: " + missing(nums, N));
+        int nums[] = {3,0,1};
+        System.out.println(missingNumber(nums));
     }
 }

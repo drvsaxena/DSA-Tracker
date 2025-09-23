@@ -1,42 +1,33 @@
-public class DutchFlag {
-    public static void sortArray (int nums[]) {
-        int low = 0;
-        int mid = 0;
-        int high = nums.length - 1;
+import java.util.Arrays;
 
-        while (mid <= high) {
-            if (nums[mid] == 0) {
-                int temp = nums[low];
-                nums[low] = nums[mid];
-                nums[mid] = temp;
-                
-                low++;
-                mid++;
+public class DutchFlag{
+    public static void dutchFlag(int nums[]) {
+        int ZCOUNT = 0;
+        int OCOUNT = 0;
+        //COUNTING
+        for (int i=0; i<nums.length; i++) {
+            if (nums[i] == 0) {
+                ZCOUNT++;
             }
-
-            else if (nums[mid] == 1) {
-                mid++;
-            }
-
-            else {
-                int temp = nums[mid];
-                nums[mid] = nums[high];
-                nums[high] = temp;
-
-                high--;
+            if (nums[i] == 1) {
+                OCOUNT++;
             }
         }
+        //INSERTION
+        for (int i=0; i<ZCOUNT; i++) {
+            nums[i] = 0;
+        }
+        for (int i=ZCOUNT; i<ZCOUNT+OCOUNT; i++) {
+            nums[i] = 1;
+        }
+        for (int i=ZCOUNT+OCOUNT; i<nums.length; i++) {
+            nums[i] = 2;
+        }
     }
-
 
     public static void main(String[] args) {
-        int nums[] = {2, 0, 2, 1, 1, 0};
-
-        sortArray(nums);
-
-        for (int i=0; i<nums.length; i++) {
-            System.out.print(nums[i] + " ");
-        }
+        int nums[] = {0,1,1,0,2,1,0,2};
+        dutchFlag(nums);
+        System.out.println(Arrays.toString(nums));
     }
-    
 }

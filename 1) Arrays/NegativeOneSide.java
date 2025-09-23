@@ -4,7 +4,6 @@ public class NegativeOneSide{
 
         for(int i=0; i<nums.length; i++) {
             if(nums[i] < 0) {
-                //Swap only if nums[i] != nums[j]
                 if(i != j) {
                     int temp = nums[j];
                     nums[j] = nums[i];

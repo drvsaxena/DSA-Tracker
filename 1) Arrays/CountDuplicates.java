@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class CountDuplicates {
     public static void duplicate(int nums[]) {
         boolean visited[] = new boolean[nums.length];
@@ -22,8 +24,22 @@ public class CountDuplicates {
         }
     }
 
+    public static void duplicate2(int nums[]) {
+        HashMap<Integer,Integer> hm = new HashMap<>();
+        for (int i : nums) {
+            hm.put(i, hm.getOrDefault(i, 0) + 1);
+        }
+        for (int key : hm.keySet()) {
+            if (hm.get(key) > 1) {
+                System.out.println(key + " -> "+ hm.get(key) + " times" );
+            }
+        }
+    }
+
     public static void main(String[] args) {
         int nums[] = {2,4,2,5,3,6,4,4};
         duplicate(nums);
+        System.out.println();
+        duplicate2(nums);
     }
 }
