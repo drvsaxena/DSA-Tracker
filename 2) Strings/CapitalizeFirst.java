@@ -5,7 +5,8 @@ public class CapitalizeFirst {
 
         for(int i=0; i<words.length; i++) {
             if(words.length > 0) {
-                String cap = words[i].substring(0,1).toUpperCase() + words[i].substring(1).toLowerCase();
+                String cap = words[i].substring(0,1).toUpperCase() 
+                + words[i].substring(1).toLowerCase();
                 sb.append(cap).append(" ");
             }    
         }

@@ -6,9 +6,6 @@ import java.util.HashMap;
 public class AnagramCheck {
     public static void isAnagram(String str1, String str2) {
         HashMap<Character,Integer> hm = new HashMap<>();
-
-        
-
         for (char s : str1.toCharArray()) {
             hm.put(s, hm.getOrDefault(s, 0)+1);
         }
@@ -32,8 +29,8 @@ public class AnagramCheck {
 
 
     public static void main(String[] args) {
-        String str1 = "a";
-        String str2 = "ab";
+        String str1 = "LISTEN";
+        String str2 = "SILENT";
         isAnagram(str1, str2);
     }
 

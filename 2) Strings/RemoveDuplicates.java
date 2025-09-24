@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class RemoveDuplicates {
     public static String remdup(String str) {
         StringBuilder sb = new StringBuilder(str);
@@ -12,11 +14,9 @@ public class RemoveDuplicates {
         return sb.toString();
     }
 
-
     public static String remdup2(String str) {
         StringBuilder sb = new StringBuilder();
         boolean seen[] = new boolean[256];
-
         for(int i=0; i<str.length(); i++) {
             char ch = str.charAt(i);
             if(!seen[ch]) {
@@ -24,16 +24,25 @@ public class RemoveDuplicates {
                 seen[ch] = true;
             }
         }
-
-        return sb.toString();
-        
+        return sb.toString();  
     }
+
+    public static String dupliStr(String str) {
+        StringBuilder sb = new StringBuilder();
+        HashMap <Character, Integer> hm = new HashMap<>();
+        for (char ch : str.toCharArray()) {
+            if (!hm.containsKey(ch)) {
+                sb.append(ch);
+                hm.put(ch, hm.getOrDefault(ch, 0) + 1);
+            }
+        }
+        return sb.toString();
+    }
+
     public static void main(String[] args) {
         String str = "ashish";
         System.out.println(remdup2(str));
     }
-
-
 }
 
 

@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class FrquencyStr {
     public static void freq(String str) {
         int fr[] = new int[256];
@@ -12,8 +14,19 @@ public class FrquencyStr {
         }
     }
 
+    public static void freq2(String str) {
+        HashMap<Character,Integer> hm = new HashMap<>();
+        for (char ch : str.toCharArray()) {
+            hm.put(ch, hm.getOrDefault(ch, 0) + 1);
+        }
+        for (char key : hm.keySet()) {
+            System.out.println(key + " : " + hm.get(key));
+        }
+    }
+
     public static void main(String[] args) {
         String str = "ashish";
         freq(str);
+        freq2(str);
     }
 }
