@@ -6,7 +6,7 @@ public class RemoveNum {
     }
 
     public static void main(String[] args) {
-        String str = "hello123 wrold@1234";
+        String str = "hello123 world@1234";
         System.out.println(removeoth(str));
     }
 }
