@@ -9,18 +9,13 @@ public class FirstNonRepeating {
             hm.put(ch, hm.getOrDefault(ch, 0) + 1);
         }
 
-        int index=0;
-        for (char key : hm.keySet()) {
-            if (hm.get(key) != 1) {
-                index++; 
-            } else {
-                return index;
+        for (int i=0; i<s.length(); i++) {
+            if (hm.get(s.charAt(i)) == 1) {
+                return i;
             }
         }
-    
         return -1;
     }
-
 
     public static void main(String[] args) {
         String name = "loveleetcode";

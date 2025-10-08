@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class SubarrayWithSum {
+public class SubArrayWithSum {
     public static void arraySum(int nums[], int k) {
         HashMap<Integer,Integer> hm = new HashMap<>();
         int prefixSum = 0;

@@ -1,4 +1,4 @@
-class SubArrayGivenSum {
+class CountPairs {
     public static int subarraySum(int[] nums, int k) {
         int tp=0;
         for (int i=0; i<nums.length; i++) {
